@@ -1,3 +1,57 @@
 body {
-    background-color: aquamarine; 
+    background-color: black;
+}
+
+.grid-general-container {
+    height: 300vh; 
+    width: 100vw;
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 5% 30% auto auto auto auto 5%;  
+    background-color: black; 
+    text-align: center;
+
+
+}
+
+.cajas {
+    background-color: rgba(128, 128, 128, 0);
+    border: 1px solid white; 
+    color: white; 
+    
+}
+
+.log {
+    grid-column: 1/4; 
+}
+
+.pres { 
+    grid-column: 1/7; 
+    grid-row: 2/5; 
+    background-image: url(./fotos/WipeOut04_22_2022_030420.735000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.serv {
+    grid-column: 1/7; 
+    grid-row: 3/5; 
+}
+
+.fil {
+    grid-column: 1/7;
+    grid-row: 5/6;
+}
+
+.equi {
+    grid-column: 1/7;
+    grid-row: 6/7; 
+}
+
+.susc {
+    grid-column: 2/4;
+}
+
+.red {
+    grid-column: 4/6; 
 }
